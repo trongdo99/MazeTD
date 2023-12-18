@@ -80,6 +80,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd5b64969872854b9a21fddc4b3802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PrefabId: 1
+  IsPreview: 0
 --- !u!135 &2772814723379576022
 SphereCollider:
   m_ObjectHideFlags: 0
