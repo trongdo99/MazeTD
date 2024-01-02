@@ -280,7 +280,6 @@ GameObject:
   - component: {fileID: 1580099619548790498}
   - component: {fileID: 7494417568532469760}
   - component: {fileID: 8805132919643039303}
-  - component: {fileID: 1149370687832259163}
   m_Layer: 5
   m_Name: FastFowardButton
   m_TagString: Untagged
@@ -390,9 +389,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1149370687832259163}
-        m_TargetAssemblyTypeName: FastForwardButton, Assembly-CSharp
-        m_MethodName: OnClick
+      - m_Target: {fileID: 8747402642629638663}
+        m_TargetAssemblyTypeName: TopPanelController, Assembly-CSharp
+        m_MethodName: UI_FastForwardButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -402,18 +401,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1149370687832259163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3296261127963711973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2e47eb799648f24689d72ec5f7ee5d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3907101413829833828
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,7 +547,6 @@ GameObject:
   - component: {fileID: 283055599306944222}
   - component: {fileID: 8764417846578245663}
   - component: {fileID: 6870337127039702764}
-  - component: {fileID: 5934351706053766659}
   m_Layer: 5
   m_Name: ToggleSpawnerButton
   m_TagString: Untagged
@@ -670,9 +656,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5934351706053766659}
-        m_TargetAssemblyTypeName: StartSpawnerButton, Assembly-CSharp
-        m_MethodName: OnClick
+      - m_Target: {fileID: 8747402642629638663}
+        m_TargetAssemblyTypeName: TopPanelController, Assembly-CSharp
+        m_MethodName: UI_ToggleSpawnerButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -682,18 +668,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5934351706053766659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5817750140467609429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b16e617395180774f861d7e83b23e597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6432862762131772317
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,7 +680,6 @@ GameObject:
   - component: {fileID: 7448036049534727982}
   - component: {fileID: 6232119501377110910}
   - component: {fileID: 2251577727483485117}
-  - component: {fileID: 9164976776938435209}
   m_Layer: 5
   m_Name: SpawnButton
   m_TagString: Untagged
@@ -816,9 +789,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9164976776938435209}
-        m_TargetAssemblyTypeName: SpawnButtonUI, Assembly-CSharp
-        m_MethodName: OnClick
+      - m_Target: {fileID: 8747402642629638663}
+        m_TargetAssemblyTypeName: TopPanelController, Assembly-CSharp
+        m_MethodName: UI_SpawnButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -828,18 +801,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &9164976776938435209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6432862762131772317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d39423ab32c2b704ebeb21eef29dc667, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8537423074987290912
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,3 +856,5 @@ MonoBehaviour:
   animOut: {fileID: 0}
   properties:
     priority: 0
+  _fastForwardButtonText: {fileID: 1723172746969196883}
+  _toggleSpawnerButtonText: {fileID: 7453998912335883308}
