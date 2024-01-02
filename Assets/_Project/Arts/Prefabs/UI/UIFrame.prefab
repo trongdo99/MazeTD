@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef23383ce83c5ae4dbd72d10e75d4607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initializeOnAwake: 1
+  initializeOnAwake: 0
 --- !u!223 &5146202125799899970
 Canvas:
   m_ObjectHideFlags: 0
