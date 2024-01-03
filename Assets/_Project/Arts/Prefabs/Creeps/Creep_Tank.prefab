@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7129109657123547525}
   - component: {fileID: 2287668443933118798}
   m_Layer: 28
-  m_Name: Creep_Simple
+  m_Name: Creep_Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f71fe221bd85804f85177734d564416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementSpeed: 1
+  StatsData: {fileID: 11400000, guid: 290de1daaf85292409d89323cc3fca8b, type: 2}
 --- !u!65 &2287668443933118798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -297,7 +297,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 9dfd3397df6872d4c8b3db2dd9dd902e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
