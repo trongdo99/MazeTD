@@ -46,6 +46,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd5b64969872854b9a21fddc4b3802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _targetGroup: 0
+  _targetMode: 2
+  _targetCountPerAttack: 1
+  _turretPivot: {fileID: 7619457929912614288}
+  _barrelPivot: {fileID: 0}
+  _shootPoints: []
+  _snapAimToTarget: 0
+  _aimSpeed: 1
   Level: 1
   StatsDictionary:
     _serializedList:
@@ -138,5 +146,10 @@ PrefabInstance:
 --- !u!4 &7619457929912572014 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 432600, guid: bdcc2af49c70d304caf4ad15f3511c81, type: 3}
+  m_PrefabInstance: {fileID: 7619457929912926646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7619457929912614288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 474150, guid: bdcc2af49c70d304caf4ad15f3511c81, type: 3}
   m_PrefabInstance: {fileID: 7619457929912926646}
   m_PrefabAsset: {fileID: 0}
