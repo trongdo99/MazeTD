@@ -47,6 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StatsData: {fileID: 11400000, guid: 290de1daaf85292409d89323cc3fca8b, type: 2}
+  _creepRadius: 0.125
+  _isFlying: 0
 --- !u!65 &2287668443933118798
 BoxCollider:
   m_ObjectHideFlags: 0

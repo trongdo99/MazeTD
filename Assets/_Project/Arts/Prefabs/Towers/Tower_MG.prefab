@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &762041511293685675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4523993902492181845}
+  m_Layer: 0
+  m_Name: ShootPoint_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4523993902492181845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762041511293685675}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.25, y: 0.65, z: 2.25}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7619457929912614288}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4760517659245899339
 GameObject:
   m_ObjectHideFlags: 0
@@ -51,9 +82,13 @@ MonoBehaviour:
   _targetCountPerAttack: 1
   _turretPivot: {fileID: 7619457929912614288}
   _barrelPivot: {fileID: 0}
-  _shootPoints: []
-  _snapAimToTarget: 0
+  _shootPointList:
+  - {fileID: 4523993902492181845}
+  - {fileID: 4736372263606001097}
+  _delayBetweenShootPoints: 0.1
+  _snapAimToTarget: 1
   _aimSpeed: 1
+  _projectilePrefab: {fileID: 8624116143927328420, guid: faf1cdb65c133cd49b7c8a03392e1e10, type: 3}
   Level: 1
   StatsDictionary:
     _serializedList:
@@ -86,6 +121,37 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.45
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &6810261592160063870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4736372263606001097}
+  m_Layer: 0
+  m_Name: ShootPoint_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4736372263606001097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810261592160063870}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.25, y: 0.65, z: 2.25}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7619457929912614288}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7619457929912926646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -140,7 +206,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 474150, guid: bdcc2af49c70d304caf4ad15f3511c81, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4523993902492181845}
+    - targetCorrespondingSourceObject: {fileID: 474150, guid: bdcc2af49c70d304caf4ad15f3511c81, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4736372263606001097}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdcc2af49c70d304caf4ad15f3511c81, type: 3}
 --- !u!4 &7619457929912572014 stripped
