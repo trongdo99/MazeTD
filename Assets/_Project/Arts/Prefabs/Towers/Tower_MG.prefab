@@ -77,6 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd5b64969872854b9a21fddc4b3802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Id: 1
   _targetGroup: 0
   _targetMode: 2
   _targetCountPerAttack: 1
@@ -101,7 +102,6 @@ MonoBehaviour:
       Value: {fileID: 11400000, guid: 68c1e16da20f0e240a64ee898fcd80e0, type: 2}
     - Key: 3
       Value: {fileID: 11400000, guid: 80bb8e75a173b7b4a88b9417c30f98e7, type: 2}
-  PrefabId: 1
   IsPreview: 0
 --- !u!135 &2772814723379576022
 SphereCollider:
