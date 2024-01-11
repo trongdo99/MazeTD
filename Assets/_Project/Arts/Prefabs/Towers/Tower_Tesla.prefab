@@ -65,6 +65,10 @@ MonoBehaviour:
     _serializedList:
     - Key: 1
       Value: {fileID: 11400000, guid: db976b9c15c6a7d4d8c1ddeb2c306004, type: 2}
+    - Key: 2
+      Value: {fileID: 11400000, guid: 80a0bd30b1ee98343afc6b19ed17c2d5, type: 2}
+    - Key: 3
+      Value: {fileID: 11400000, guid: 95776e121d650144bb22ae8c06262b90, type: 2}
   IsPreview: 0
 --- !u!1 &8138707368642923179
 GameObject:
