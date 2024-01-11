@@ -195,7 +195,7 @@ MonoBehaviour:
   _timeOfZap: 0.3
   _randomRange: 1.2
   _lightningWidth: 0.1
-  _maxLgtDist: 1.5
+  _maxLgtDist: 0.2
   _chainLightningCount: 3
   _chainLightningRadius: 1.5
 --- !u!1 &8887167824192749276
