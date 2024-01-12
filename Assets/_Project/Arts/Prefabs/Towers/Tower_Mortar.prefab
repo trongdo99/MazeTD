@@ -95,6 +95,10 @@ MonoBehaviour:
     _serializedList:
     - Key: 1
       Value: {fileID: 11400000, guid: 539de24854e895846b68cb29bc7f8335, type: 2}
+    - Key: 2
+      Value: {fileID: 11400000, guid: 43a33656f6f75a244b5653c10bb6af6c, type: 2}
+    - Key: 3
+      Value: {fileID: 11400000, guid: 1b25e898d84443e4c8c53701dd2c2ec7, type: 2}
   IsPreview: 0
 --- !u!1001 &2209648874671088139
 PrefabInstance:
