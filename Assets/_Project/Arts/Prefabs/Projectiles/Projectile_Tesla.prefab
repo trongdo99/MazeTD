@@ -53,7 +53,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2bdfde6d765b932418bcb0286ceef84b, type: 2}
+  - {fileID: 2100000, guid: 4b0bff879a8bcce49866d5e5085fe9f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -185,6 +185,6 @@ MonoBehaviour:
   _speed: 10
   _lightningRenderer: {fileID: 252039218570188351}
   _timeOfZap: 0.1
-  _lightningWidth: 0.1
+  _lightningWidth: 2
   _chainLightningCount: 3
   _chainLightningRadius: 1.5
