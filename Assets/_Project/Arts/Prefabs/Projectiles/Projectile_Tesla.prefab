@@ -144,7 +144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 864369333101718954}
-  - component: {fileID: 3018799973128038779}
+  - component: {fileID: 5055199311751327733}
   m_Layer: 0
   m_Name: Projectile_Tesla
   m_TagString: Untagged
@@ -168,7 +168,7 @@ Transform:
   - {fileID: 3793830191682930987}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3018799973128038779
+--- !u!114 &5055199311751327733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,14 +177,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8029101576243271699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbfd459038039964ab8315a3e07da679, type: 3}
+  m_Script: {fileID: 11500000, guid: 801e38378feebae43ab02ad2a81d4fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: 2
-  _isStraightProjectile: 1
-  _speed: 10
   _lightningRenderer: {fileID: 252039218570188351}
-  _timeOfZap: 0.1
+  _timeOfZap: 0.25
   _lightningWidth: 2
   _chainLightningCount: 3
   _chainLightningRadius: 1.5

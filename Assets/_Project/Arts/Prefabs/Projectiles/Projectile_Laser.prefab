@@ -144,7 +144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 864369333101718954}
-  - component: {fileID: 3018799973128038779}
+  - component: {fileID: 7531837773226218761}
   m_Layer: 0
   m_Name: Projectile_Laser
   m_TagString: Untagged
@@ -168,7 +168,7 @@ Transform:
   - {fileID: 3793830191682930987}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3018799973128038779
+--- !u!114 &7531837773226218761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,20 +177,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8029101576243271699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbfd459038039964ab8315a3e07da679, type: 3}
+  m_Script: {fileID: 11500000, guid: 127f520afeca96048b7c0c0d142e8399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: 5
-  _speed: 10
-  _isStraightProjectile: 1
-  _elevation: 0
-  _fallOffRange: 0
-  _lightningRenderer: {fileID: 0}
-  _timeOfZap: 0.1
-  _lightningWidth: 2
-  _chainLightningCount: 3
-  _chainLightningRadius: 1.5
   _laserRenderer: {fileID: 252039218570188351}
   _laserWidth: 2
-  _windUpTime: 0.5
-  _dealDamageInterval: 0.5
+  _windUpTime: 0.75
+  _dealDamageInterval: 0.15

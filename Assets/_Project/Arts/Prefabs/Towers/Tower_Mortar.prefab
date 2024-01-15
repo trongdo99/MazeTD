@@ -87,7 +87,7 @@ MonoBehaviour:
   _delayBetweenShootPoints: 0
   _snapAimToTarget: 0
   _aimSpeed: 10
-  _projectilePrefab: {fileID: 8624116143927328420, guid: 84704c243cdcef74388e4e6fb62bb278, type: 3}
+  _projectilePrefab: {fileID: 7428705642056624348, guid: 84704c243cdcef74388e4e6fb62bb278, type: 3}
   _aoeProjectile: 0
   _effectOnHitList: []
   Level: 1

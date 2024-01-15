@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 402444735685253547}
   - component: {fileID: 5351364331153764569}
   - component: {fileID: 939297756119596510}
-  - component: {fileID: 8624116143927328420}
+  - component: {fileID: 7428705642056624348}
   m_Layer: 0
   m_Name: Projectile_MortarBullet
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9128119546752857686}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &8624116143927328420
+--- !u!114 &7428705642056624348
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,16 +93,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 9128119546752857686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbfd459038039964ab8315a3e07da679, type: 3}
+  m_Script: {fileID: 11500000, guid: d142aa60592940740a0cf0b03287ddff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: 0
-  _isStraightProjectile: 0
   _speed: 7
-  _lightningRenderer: {fileID: 0}
-  _timeOfZap: 0.25
-  _lightningWidth: 0.15
-  _chainLightningCount: 3
-  _chainLightningRadius: 1.5
+  _isStraightProjectile: 0
   _elevation: 4
-  _fallOffRange: 0.1
+  _fallOffRange: 0.2
