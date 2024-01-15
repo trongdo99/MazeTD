@@ -192,5 +192,5 @@ MonoBehaviour:
   _chainLightningRadius: 1.5
   _laserRenderer: {fileID: 252039218570188351}
   _laserWidth: 2
-  _windUpTime: 1
+  _windUpTime: 0.5
   _dealDamageInterval: 0.5
