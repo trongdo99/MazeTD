@@ -151,6 +151,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "today.comes.saintsfield": {
+      "version": "https://github.com/TylerTemp/SaintsField.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "62a5a6bd83ce382b484b09c082a2eedfe3909607"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
