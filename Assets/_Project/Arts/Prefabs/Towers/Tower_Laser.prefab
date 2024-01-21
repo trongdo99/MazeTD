@@ -91,14 +91,10 @@ MonoBehaviour:
   _aoeProjectile: 0
   _effectOnHitList: []
   Level: 1
-  StatsDictionary:
-    _serializedList:
-    - Key: 1
-      Value: {fileID: 11400000, guid: d6b59e703229801479dee829d93eac1b, type: 2}
-    - Key: 2
-      Value: {fileID: 11400000, guid: 556742c39f82bd04da58a70a39cfccf6, type: 2}
-    - Key: 3
-      Value: {fileID: 11400000, guid: 5bf1635ec731b0443880f27e2e7a30d6, type: 2}
+  BaseStatsList:
+  - {fileID: 11400000, guid: d6b59e703229801479dee829d93eac1b, type: 2}
+  - {fileID: 11400000, guid: 556742c39f82bd04da58a70a39cfccf6, type: 2}
+  - {fileID: 11400000, guid: 5bf1635ec731b0443880f27e2e7a30d6, type: 2}
   IsPreview: 0
 --- !u!1001 &351254213488323400
 PrefabInstance:

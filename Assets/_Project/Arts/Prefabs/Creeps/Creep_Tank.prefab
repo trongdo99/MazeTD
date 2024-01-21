@@ -46,9 +46,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f71fe221bd85804f85177734d564416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatsData: {fileID: 11400000, guid: 290de1daaf85292409d89323cc3fca8b, type: 2}
+  Id: -1
+  BaseStats: {fileID: 11400000, guid: 290de1daaf85292409d89323cc3fca8b, type: 2}
   _creepRadius: 0.125
   _isFlying: 0
+  _allActiveEffectList: []
+  _activeEffectModifier:
+    StatsDict:
+      _serializedList: []
+    IsStun: 0
+    IsMultiplier: 0
+  _activeEffectMultiplier:
+    StatsDict:
+      _serializedList: []
+    IsStun: 0
+    IsMultiplier: 0
 --- !u!65 &2287668443933118798
 BoxCollider:
   m_ObjectHideFlags: 0

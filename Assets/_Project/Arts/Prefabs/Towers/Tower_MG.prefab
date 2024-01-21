@@ -92,14 +92,10 @@ MonoBehaviour:
   _aoeProjectile: 0
   _effectOnHitList: []
   Level: 1
-  StatsDictionary:
-    _serializedList:
-    - Key: 1
-      Value: {fileID: 11400000, guid: 3cfa98024ca6ab948ae1a4f765d074f1, type: 2}
-    - Key: 2
-      Value: {fileID: 11400000, guid: 68c1e16da20f0e240a64ee898fcd80e0, type: 2}
-    - Key: 3
-      Value: {fileID: 11400000, guid: 80bb8e75a173b7b4a88b9417c30f98e7, type: 2}
+  BaseStatsList:
+  - {fileID: 11400000, guid: 3cfa98024ca6ab948ae1a4f765d074f1, type: 2}
+  - {fileID: 11400000, guid: 68c1e16da20f0e240a64ee898fcd80e0, type: 2}
+  - {fileID: 11400000, guid: 80bb8e75a173b7b4a88b9417c30f98e7, type: 2}
   IsPreview: 0
 --- !u!135 &2772814723379576022
 SphereCollider:
