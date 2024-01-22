@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd5b64969872854b9a21fddc4b3802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 2
+  Id: 0
   _targetGroup: 0
   _targetMode: 2
   _targetCountPerAttack: 1
@@ -88,8 +88,7 @@ MonoBehaviour:
   _snapAimToTarget: 0
   _aimSpeed: 5
   _projectilePrefab: {fileID: 148465923998383780, guid: 3a50902c2b8300346ab54bb2090bd8b3, type: 3}
-  _aoeProjectile: 0
-  _effectOnHitList: []
+  _effectOnHitIdList: 
   Level: 1
   BaseStatsList:
   - {fileID: 11400000, guid: 072175a87c39ab347a5c18e592f3a50b, type: 2}
