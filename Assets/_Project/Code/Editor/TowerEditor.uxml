@@ -1,0 +1,44 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Container" style="flex-grow: 1; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; flex-direction: row;">
+        <ui:VisualElement name="EntryViewList" style="width: 25%;">
+            <ui:VisualElement name="Header" style="flex-grow: 1; flex-direction: row; min-width: 256px; min-height: 30px; max-height: 30px;">
+                <ui:Label tabindex="-1" text="Towers" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 24px; -unity-font-style: bold; -unity-text-align: middle-left; flex-grow: 1;" />
+                <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: normal;" />
+            </ui:VisualElement>
+            <ui:ListView focusable="true" name="TowerListView" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Divider" style="flex-grow: 1; width: 1px; background-color: rgb(108, 108, 108); padding-right: 1px; padding-left: 1px; margin-right: 5px; margin-left: 5px;" />
+        <ui:VisualElement name="DetailsPane" style="flex-grow: 1; width: 75%;">
+            <ui:VisualElement name="Header" style="flex-grow: 1; flex-direction: row; min-width: 256px; min-height: 30px; max-height: 30px;">
+                <ui:Label tabindex="-1" text="Tower Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LargeTowerName" binding-path="Name" style="font-size: 24px; -unity-font-style: bold; -unity-text-align: middle-left; flex-grow: 1;" />
+                <ui:Button text="Delete" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" style="-unity-font-style: normal;" />
+            </ui:VisualElement>
+            <ui:ScrollView name="ScrollView" style="flex-grow: 1;">
+                <ui:VisualElement name="Content" style="flex-grow: 1;">
+                    <ui:VisualElement name="Row" style="flex-grow: 1; flex-direction: row; align-items: center; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
+                        <ui:VisualElement name="LargeIcon" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/_Project/Arts/Textures/default_icon.png?fileID=21300000&amp;guid=fc2b95b68a060344cb04b5d9202fbab6&amp;type=3#default_icon&apos;); width: 100px; height: 100px;" />
+                        <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(65, 65, 65); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); color: rgb(255, 255, 255); -unity-font-style: bold;">
+                            <ui:Label tabindex="-1" text="General" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeaderLabel" style="background-color: rgb(38, 38, 38); padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 5px; margin-left: 2px;" />
+                            <ui:TextField picking-mode="Ignore" label="Name" value="filler text" name="TowerName" binding-path="Name" />
+                            <ui:TextField picking-mode="Ignore" label="Description" value="filler text" multiline="true" binding-path="Description" />
+                            <uie:ObjectField label="Prerfab" type="UnityEngine.Object, UnityEngine.CoreModule" name="TowerPrefabPicker" />
+                            <uie:ObjectField label="Icon" type="UnityEngine.Sprite, UnityEngine.CoreModule" binding-path="Icon" name="TowerIconPicker" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Row" style="flex-grow: 1; flex-direction: row; align-items: center; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
+                        <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(65, 65, 65); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); color: rgb(255, 255, 255); -unity-font-style: bold;">
+                            <ui:Label tabindex="-1" text="Tower General Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeaderLabel" style="background-color: rgb(38, 38, 38); padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 5px;" />
+                            <ui:EnumField label="Target Group" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" binding-path="_targetGroup" />
+                            <ui:EnumField label="Targeting Mode" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" binding-path="_targetMode" />
+                            <ui:IntegerField label="Target Per Attack" value="42" binding-path="_targetCountPerAttack" />
+                            <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-self: auto; align-items: stretch; justify-content: flex-start;">
+                                <ui:Foldout text="Shoot Points" name="ShootPointFoldOut" />
+                                <ui:IntegerField value="42" name="ShootPointCountInput" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
