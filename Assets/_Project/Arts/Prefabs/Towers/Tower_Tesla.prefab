@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 5
-  Name: 
+  Name: Tesla Tower
   Description: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: fed5ec398862612458d9775ae05681ac, type: 3}
   _targetGroup: 0
   _targetMode: 2
   _targetCountPerAttack: 1
