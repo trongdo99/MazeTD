@@ -47,6 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 5
+  Name: 
+  Description: 
+  Icon: {fileID: 0}
   _targetGroup: 0
   _targetMode: 2
   _targetCountPerAttack: 1

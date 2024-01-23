@@ -31,10 +31,10 @@
                             <ui:EnumField label="Target Group" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" binding-path="_targetGroup" />
                             <ui:EnumField label="Targeting Mode" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" binding-path="_targetMode" />
                             <ui:IntegerField label="Target Per Attack" value="42" binding-path="_targetCountPerAttack" />
-                            <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-self: auto; align-items: stretch; justify-content: flex-start;">
-                                <ui:Foldout text="Shoot Points" name="ShootPointFoldOut" />
-                                <ui:IntegerField value="42" name="ShootPointCountInput" />
-                            </ui:VisualElement>
+                            <uie:ObjectField label="Projectile Prefab" name="ProjectilePrefabPicker" binding-path="_projectilePrefab" />
+                            <ui:IntegerField value="42" name="ShootPointCountInput" label="Shoot Point Count" style="flex-grow: 0; align-items: center;" />
+                            <ui:Foldout text="Shoot Points" name="ShootPointFoldOut" />
+                            <ui:FloatField label="Delay Between Shoot Points" value="42.2" name="DelayBetweenShootPointsInput" binding-path="_delayBetweenShootPoints" />
                         </ui:VisualElement>
                     </ui:VisualElement>
                 </ui:VisualElement>

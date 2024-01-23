@@ -46,9 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 1
-  Name: Tower_Cryo
+  Name: Cryo Tower
   Description: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: a0ce52f96e9e4ee45a879c8d890f20f4, type: 3}
   _targetGroup: 0
   _targetMode: 2
   _targetCountPerAttack: 1

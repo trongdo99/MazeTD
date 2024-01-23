@@ -79,7 +79,7 @@ MonoBehaviour:
   Id: 0
   Name: Cannon Tower
   Description: 
-  Icon: {fileID: 21300000, guid: 73c7492daf3447245b56be2d3f19d800, type: 3}
+  Icon: {fileID: 21300000, guid: 4e6bb75b7e106564bbaf365cc9642cc2, type: 3}
   _targetGroup: 0
   _targetMode: 2
   _targetCountPerAttack: 1
