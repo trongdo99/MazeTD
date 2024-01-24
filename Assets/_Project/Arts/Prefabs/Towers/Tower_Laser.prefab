@@ -86,13 +86,13 @@ MonoBehaviour:
   _turretPivot: {fileID: 351254213488155188}
   _barrelPivot: {fileID: 351254213488175706}
   _shootPointList:
-  - {fileID: 0}
+  - {fileID: 9025384127551702220}
   _delayBetweenShootPoints: 0
   _snapAimToTarget: 0
   _aimSpeed: 10
   _projectilePrefab: {fileID: 7531837773226218761, guid: bd59db8290fa3154783ddec2684445e7, type: 3}
   _effectOnHitIdList: 
-  Level: 1
+  Level: 0
   BaseStatsList:
   - {fileID: 11400000, guid: d6b59e703229801479dee829d93eac1b, type: 2}
   - {fileID: 11400000, guid: 556742c39f82bd04da58a70a39cfccf6, type: 2}

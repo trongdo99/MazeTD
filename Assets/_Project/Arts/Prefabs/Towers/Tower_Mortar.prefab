@@ -92,7 +92,7 @@ MonoBehaviour:
   _aimSpeed: 10
   _projectilePrefab: {fileID: 7428705642056624348, guid: 84704c243cdcef74388e4e6fb62bb278, type: 3}
   _effectOnHitIdList: 
-  Level: 1
+  Level: 0
   BaseStatsList:
   - {fileID: 11400000, guid: 539de24854e895846b68cb29bc7f8335, type: 2}
   - {fileID: 11400000, guid: 43a33656f6f75a244b5653c10bb6af6c, type: 2}
