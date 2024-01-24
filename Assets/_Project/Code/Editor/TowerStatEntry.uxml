@@ -5,8 +5,13 @@
         <ui:FloatField label="Sell Value" value="42.2" binding-path="SellValue" name="SellValueField" style="align-self: flex-start;" />
         <ui:FloatField label="Build Duration" value="42.2" name="BuildDurationField" binding-path="BuildDuration" style="align-self: flex-start;" />
         <ui:FloatField label="Sell Duration" value="42.2" binding-path="SellDuration" name="SellDurationField" style="align-self: flex-start;" />
-        <ui:VisualElement name="Divider" style="flex-grow: 1; padding-top: 1px; padding-bottom: 1px; background-color: rgb(0, 0, 0); margin-top: 5px; margin-bottom: 5px;" />
+        <ui:VisualElement name="Divider" style="flex-grow: 1; padding-top: 1px; padding-bottom: 1px; background-color: rgb(108, 108, 108); margin-top: 5px; margin-bottom: 5px;" />
         <ui:FloatField label="Damage Min" value="42.2" name="MinDamageField" />
         <ui:FloatField label="Damage Max" value="42.2" name="MaxDamageField" />
+        <ui:FloatField label="Attack Range" value="42.2" name="AttackRangeField" />
+        <ui:FloatField label="Attack Speed" value="42.2" name="AttackSpeedField" />
+        <ui:FloatField label="Critical Chance" value="42.2" name="CriticalChanceField" />
+        <ui:FloatField label="Critical Multiplier" value="42.2" name="CriticalMultiplierField" />
+        <ui:FloatField label="AoE Radius" value="42.2" name="AoeRadiusField" />
     </ui:VisualElement>
 </ui:UXML>
