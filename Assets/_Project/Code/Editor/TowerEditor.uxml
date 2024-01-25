@@ -3,15 +3,15 @@
         <ui:VisualElement name="EntryViewList" style="width: 25%;">
             <ui:VisualElement name="Header" style="flex-grow: 1; flex-direction: row; min-width: 256px; min-height: 30px; max-height: 30px;">
                 <ui:Label tabindex="-1" text="Towers" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 24px; -unity-font-style: bold; -unity-text-align: middle-left; flex-grow: 1;" />
-                <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: normal;" />
+                <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="SaveButton" style="-unity-font-style: normal;" />
             </ui:VisualElement>
+            <uie:ObjectField label="New Tower Prefab" name="NewTowerPicker" type="Tower, Assembly-CSharp" allow-scene-objects="false" />
             <ui:ListView focusable="true" name="TowerListView" style="flex-grow: 1;" />
         </ui:VisualElement>
         <ui:VisualElement name="Divider" style="flex-grow: 1; width: 1px; background-color: rgb(108, 108, 108); padding-right: 1px; padding-left: 1px; margin-right: 5px; margin-left: 5px;" />
         <ui:VisualElement name="DetailsPane" style="flex-grow: 1; width: 75%;">
             <ui:VisualElement name="Header" style="flex-grow: 1; flex-direction: row; min-width: 256px; min-height: 30px; max-height: 30px;">
                 <ui:Label tabindex="-1" text="Tower Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LargeTowerName" binding-path="Name" style="font-size: 24px; -unity-font-style: bold; -unity-text-align: middle-left; flex-grow: 1;" />
-                <ui:Button text="Delete" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" style="-unity-font-style: normal;" />
             </ui:VisualElement>
             <ui:ScrollView name="ScrollView" style="flex-grow: 1;">
                 <ui:VisualElement name="Content" style="flex-grow: 1;">

@@ -92,7 +92,6 @@ MonoBehaviour:
   _snapAimToTarget: 0
   _aimSpeed: 10
   _projectilePrefab: {fileID: 604039818731139435, guid: faf1cdb65c133cd49b7c8a03392e1e10, type: 3}
-  _effectOnHitIdList: 
   Level: 0
   BaseStatsList:
   - {fileID: 11400000, guid: 3cfa98024ca6ab948ae1a4f765d074f1, type: 2}
