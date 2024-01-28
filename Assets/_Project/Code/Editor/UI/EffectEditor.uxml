@@ -21,11 +21,11 @@
                     <ui:VisualElement name="Row1" style="flex-grow: 1; flex-direction: row; align-items: center; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
                         <ui:VisualElement name="LargeIcon" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/_Project/Arts/Textures/default_icon.png?fileID=21300000&amp;guid=fc2b95b68a060344cb04b5d9202fbab6&amp;type=3#default_icon&apos;); width: 100px; height: 100px;" />
                         <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(65, 65, 65); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); color: rgb(255, 255, 255); -unity-font-style: bold;">
-                            <ui:Label tabindex="-1" text="General" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeaderLabel" style="background-color: rgb(38, 38, 38); padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 5px; margin-left: 2px;" />
+                            <ui:Label tabindex="-1" text="General" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeaderLabel" data-source-type="Effect, Assembly-CSharp" data-source-path="Id" style="background-color: rgb(38, 38, 38); padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 5px; margin-left: 2px;" />
                             <ui:TextField picking-mode="Ignore" label="Id" value="filler text" name="IdField" binding-path="Id" readonly="true" />
-                            <ui:TextField picking-mode="Ignore" label="Name" value="filler text" name="EffectName" binding-path="Name" />
-                            <ui:TextField picking-mode="Ignore" label="Description" value="filler text" multiline="true" binding-path="Description" name="DescriptionField" />
-                            <uie:ObjectField label="Icon" type="UnityEngine.Sprite, UnityEngine.CoreModule" binding-path="Icon" name="EffectIconPicker" />
+                            <ui:TextField picking-mode="Ignore" label="Name" value="filler text" name="EffectName" data-source-type="Effect, Assembly-CSharp" data-source-path="Name" />
+                            <ui:TextField picking-mode="Ignore" label="Description" value="filler text" multiline="true" binding-path="Description" name="DescriptionField" data-source-type="Effect, Assembly-CSharp" data-source-path="Description" />
+                            <uie:ObjectField label="Icon" type="UnityEngine.Sprite, UnityEngine.CoreModule" binding-path="Icon" name="EffectIconPicker" data-source-type="Effect, Assembly-CSharp" data-source-path="Icon" />
                         </ui:VisualElement>
                     </ui:VisualElement>
                     <ui:VisualElement name="Row2" style="flex-grow: 1; flex-direction: row; align-items: center; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
@@ -39,15 +39,15 @@
                                 <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgb(108, 108, 108); height: 1px; align-self: center;" />
                             </ui:VisualElement>
                             <ui:Toggle label="Stun Target" name="StunField" />
-                            <ui:EnumField label="Effect Type" type="Effect+EffectType, Assembly-CSharp" name="EffectTypePicker" />
-                            <ui:FloatField label="Hp Regen Rate" value="42.2" name="HpRegenRateField" />
-                            <ui:FloatField label="Sp Regen Rate" value="42.2" name="SpRegenRateField" />
-                            <ui:FloatField label="Hit Point" value="42.2" name="HpField" />
-                            <ui:FloatField label="Shield Point" value="42.2" name="SpField" />
-                            <ui:FloatField label="- Stagger Duration" value="42.2" name="ShieldStaggerDurationField" />
-                            <ui:FloatField label="Move Speed" value="42.2" name="MoveSpeedField" />
-                            <ui:FloatField label="Damage Reduction" value="42.2" name="DamageReductionField" />
-                            <ui:FloatField label="Critical Reduction" value="42.2" name="CriticalReductionField" />
+                            <ui:EnumField label="Effect Type" type="Effect+EffectType, Assembly-CSharp" name="EffectTypePicker" data-source-type="Effect, Assembly-CSharp" data-source-path="Type" />
+                            <ui:FloatField label="Hp Regen Rate" value="42.2" name="HpRegenRateField" data-source-path="HpRegenRate" data-source-type="Stats, Assembly-CSharp" />
+                            <ui:FloatField label="Sp Regen Rate" value="42.2" name="SpRegenRateField" data-source-type="Stats, Assembly-CSharp" data-source-path="SpRegenRate" />
+                            <ui:FloatField label="Hit Point" value="42.2" name="HpField" data-source-type="Stats, Assembly-CSharp" data-source-path="Hp" />
+                            <ui:FloatField label="Shield Point" value="42.2" name="SpField" data-source-path="Sp" data-source-type="Stats, Assembly-CSharp" />
+                            <ui:FloatField label="- Stagger Duration" value="42.2" name="ShieldStaggerDurationField" data-source-type="Stats, Assembly-CSharp" data-source-path="SpStaggerDuration" />
+                            <ui:FloatField label="Move Speed" value="42.2" name="MoveSpeedField" data-source-type="Stats, Assembly-CSharp" data-source-path="MoveSpeed" />
+                            <ui:FloatField label="Damage Reduction" value="42.2" name="DamageReductionField" data-source-type="Stats, Assembly-CSharp" data-source-path="DamageReduction" />
+                            <ui:FloatField label="Critical Reduction" value="42.2" name="CriticalReductionField" data-source-type="Stats, Assembly-CSharp" data-source-path="CriticalReduction" />
                             <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgb(108, 108, 108); padding-top: 1px; padding-bottom: 1px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
                             <ui:FloatField label="Damage Min" value="42.2" name="DamageMinField" />
                             <ui:FloatField label="Damage Max" value="42.2" name="DamageMaxField" />
