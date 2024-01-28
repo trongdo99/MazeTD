@@ -31,7 +31,8 @@
                     <ui:VisualElement name="Row2" style="flex-grow: 1; flex-direction: row; align-items: center; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
                         <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(65, 65, 65); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); color: rgb(255, 255, 255); -unity-font-style: bold;">
                             <ui:Label tabindex="-1" text="General" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeaderLabel" style="background-color: rgb(38, 38, 38); padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 5px; margin-left: 2px;" />
-                            <ui:Toggle label="Stackable" name="StackableField" />
+                            <ui:Button text="Reset" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResetButton" style="align-self: flex-start;" />
+                            <ui:Toggle label="Stackable" name="StackableField" binding-path="IsStackable" />
                             <ui:FloatField label="Duration" value="42.2" name="DurationField" />
                             <ui:VisualElement name="DividerContainer" style="flex-grow: 1; flex-direction: row; margin-top: 5px; margin-bottom: 5px; margin-right: 5px; margin-left: 5px;">
                                 <ui:Label tabindex="-1" text="Effect Atributes" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-self: auto;" />
@@ -40,13 +41,26 @@
                             <ui:Toggle label="Stun Target" name="StunField" />
                             <ui:EnumField label="Effect Type" type="Effect+EffectType, Assembly-CSharp" name="EffectTypePicker" />
                             <ui:FloatField label="Hp Regen Rate" value="42.2" name="HpRegenRateField" />
-                            <ui:FloatField label="Sp Regen Rate" value="42.2" name="SpRegenRate" />
+                            <ui:FloatField label="Sp Regen Rate" value="42.2" name="SpRegenRateField" />
+                            <ui:FloatField label="Hit Point" value="42.2" name="HpField" />
+                            <ui:FloatField label="Shield Point" value="42.2" name="SpField" />
+                            <ui:FloatField label="- Stagger Duration" value="42.2" name="ShieldStaggerDurationField" />
                             <ui:FloatField label="Move Speed" value="42.2" name="MoveSpeedField" />
                             <ui:FloatField label="Damage Reduction" value="42.2" name="DamageReductionField" />
                             <ui:FloatField label="Critical Reduction" value="42.2" name="CriticalReductionField" />
                             <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgb(108, 108, 108); padding-top: 1px; padding-bottom: 1px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
                             <ui:FloatField label="Damage Min" value="42.2" name="DamageMinField" />
                             <ui:FloatField label="Damage Max" value="42.2" name="DamageMaxField" />
+                            <ui:FloatField label="Attack Range" value="42.2" name="AttackRangeField" />
+                            <ui:FloatField label="Attack Speed" value="42.2" name="AttackSpeedField" />
+                            <ui:FloatField label="Critical Chance" value="42.2" name="CriticalChanceField" />
+                            <ui:FloatField label="Critical Multiplier" value="42.2" name="CriticalMultiplierField" />
+                            <ui:FloatField label="AoE Radius" value="42.2" name="AoeRadiusField" />
+                            <ui:FloatField label="Build Duration" value="42.2" name="BuildDurationField" />
+                            <ui:FloatField label="Upgrade Duration" value="42.2" name="UpgradeDurationField" />
+                            <ui:FloatField label="Sell Duration" value="42.2" name="SellDurationField" />
+                            <ui:FloatField label="Cost" value="42.2" name="CostField" />
+                            <ui:FloatField label="Sell Value" value="42.2" name="SellValueField" />
                         </ui:VisualElement>
                     </ui:VisualElement>
                 </ui:VisualElement>
