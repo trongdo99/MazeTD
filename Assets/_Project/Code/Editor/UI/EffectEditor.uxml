@@ -40,27 +40,29 @@
                             </ui:VisualElement>
                             <ui:Toggle label="Stun Target" name="StunField" />
                             <ui:EnumField label="Effect Type" type="Effect+EffectType, Assembly-CSharp" name="EffectTypePicker" data-source-type="Effect, Assembly-CSharp" data-source-path="Type" />
-                            <ui:FloatField label="Hp Regen Rate" value="42.2" name="HpRegenRateField" data-source-path="HpRegenRate" data-source-type="Stats, Assembly-CSharp" />
-                            <ui:FloatField label="Sp Regen Rate" value="42.2" name="SpRegenRateField" data-source-type="Stats, Assembly-CSharp" data-source-path="SpRegenRate" />
-                            <ui:FloatField label="Hit Point" value="42.2" name="HpField" data-source-type="Stats, Assembly-CSharp" data-source-path="Hp" />
-                            <ui:FloatField label="Shield Point" value="42.2" name="SpField" data-source-path="Sp" data-source-type="Stats, Assembly-CSharp" />
-                            <ui:FloatField label="- Stagger Duration" value="42.2" name="ShieldStaggerDurationField" data-source-type="Stats, Assembly-CSharp" data-source-path="SpStaggerDuration" />
-                            <ui:FloatField label="Move Speed" value="42.2" name="MoveSpeedField" data-source-type="Stats, Assembly-CSharp" data-source-path="MoveSpeed" />
-                            <ui:FloatField label="Damage Reduction" value="42.2" name="DamageReductionField" data-source-type="Stats, Assembly-CSharp" data-source-path="DamageReduction" />
-                            <ui:FloatField label="Critical Reduction" value="42.2" name="CriticalReductionField" data-source-type="Stats, Assembly-CSharp" data-source-path="CriticalReduction" />
-                            <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgb(108, 108, 108); padding-top: 1px; padding-bottom: 1px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
-                            <ui:FloatField label="Damage Min" value="42.2" name="DamageMinField" />
-                            <ui:FloatField label="Damage Max" value="42.2" name="DamageMaxField" />
-                            <ui:FloatField label="Attack Range" value="42.2" name="AttackRangeField" />
-                            <ui:FloatField label="Attack Speed" value="42.2" name="AttackSpeedField" />
-                            <ui:FloatField label="Critical Chance" value="42.2" name="CriticalChanceField" />
-                            <ui:FloatField label="Critical Multiplier" value="42.2" name="CriticalMultiplierField" />
-                            <ui:FloatField label="AoE Radius" value="42.2" name="AoeRadiusField" />
-                            <ui:FloatField label="Build Duration" value="42.2" name="BuildDurationField" />
-                            <ui:FloatField label="Upgrade Duration" value="42.2" name="UpgradeDurationField" />
-                            <ui:FloatField label="Sell Duration" value="42.2" name="SellDurationField" />
-                            <ui:FloatField label="Cost" value="42.2" name="CostField" />
-                            <ui:FloatField label="Sell Value" value="42.2" name="SellValueField" />
+                            <ui:VisualElement name="StatsContainer" style="flex-grow: 1;">
+                                <ui:FloatField label="Hp Regen Rate" value="42.2" name="HpRegenRateField" />
+                                <ui:FloatField label="Sp Regen Rate" value="42.2" name="SpRegenRateField" />
+                                <ui:FloatField label="Hit Point" value="42.2" name="HpField" />
+                                <ui:FloatField label="Shield Point" value="42.2" name="SpField" />
+                                <ui:FloatField label="- Stagger Duration" value="42.2" name="ShieldStaggerDurationField" />
+                                <ui:FloatField label="Move Speed" value="42.2" name="MoveSpeedField" />
+                                <ui:FloatField label="Damage Reduction" value="42.2" name="DamageReductionField" />
+                                <ui:FloatField label="Critical Reduction" value="42.2" name="CriticalReductionField" />
+                                <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgb(108, 108, 108); padding-top: 1px; padding-bottom: 1px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
+                                <ui:FloatField label="Damage Min" value="42.2" name="DamageMinField" />
+                                <ui:FloatField label="Damage Max" value="42.2" name="DamageMaxField" />
+                                <ui:FloatField label="Attack Range" value="42.2" name="AttackRangeField" />
+                                <ui:FloatField label="Attack Speed" value="42.2" name="AttackSpeedField" />
+                                <ui:FloatField label="Critical Chance" value="42.2" name="CriticalChanceField" />
+                                <ui:FloatField label="Critical Multiplier" value="42.2" name="CriticalMultiplierField" />
+                                <ui:FloatField label="AoE Radius" value="42.2" name="AoeRadiusField" />
+                                <ui:FloatField label="Build Duration" value="42.2" name="BuildDurationField" />
+                                <ui:FloatField label="Upgrade Duration" value="42.2" name="UpgradeDurationField" />
+                                <ui:FloatField label="Sell Duration" value="42.2" name="SellDurationField" />
+                                <ui:FloatField label="Cost" value="42.2" name="CostField" />
+                                <ui:FloatField label="Sell Value" value="42.2" name="SellValueField" />
+                            </ui:VisualElement>
                         </ui:VisualElement>
                     </ui:VisualElement>
                 </ui:VisualElement>
