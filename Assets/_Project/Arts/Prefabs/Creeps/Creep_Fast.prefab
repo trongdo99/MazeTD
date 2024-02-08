@@ -47,20 +47,74 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: -1
-  BaseStats: {fileID: 11400000, guid: 8c6ec76b7d5c92c4da1dc355402fed2f, type: 2}
+  StatsDefinition: {fileID: 11400000, guid: 8c6ec76b7d5c92c4da1dc355402fed2f, type: 2}
   _creepRadius: 0.125
   _isFlying: 0
   _allActiveEffectList: []
-  _activeEffectModifier:
-    StatsDict:
-      _serializedList: []
+  _effectModifier:
+    Id: -1
+    SourceId: -1
+    Name: 
+    Icon: {fileID: 0}
+    Description: 
+    Type: 0
+    IsStackable: 0
+    Stats:
+      DamageMin: 0
+      DamageMax: 0
+      AttackRange: 0
+      AttackSpeed: 0
+      CriticalChange: 0
+      CriticalMultiplier: 0
+      AoeRadius: 0
+      BuildDuration: 0
+      UpgradeDuration: 0
+      SellDuration: 0
+      Cost: 0
+      SellValue: 0
+      Hp: 0
+      <HpRegenRate>k__BackingField: 0
+      Sp: 0
+      SpRegenRate: 0
+      SpStaggerDuration: 0
+      MoveSpeed: 0
+      DamageReduction: 0
+      CriticalReduction: 0
+      EffectsOnHitIdList: 
     IsStun: 0
-    IsMultiplier: 0
-  _activeEffectMultiplier:
-    StatsDict:
-      _serializedList: []
+    Duration: 0
+  _effectMultiplier:
+    Id: -1
+    SourceId: -1
+    Name: 
+    Icon: {fileID: 0}
+    Description: 
+    Type: 0
+    IsStackable: 0
+    Stats:
+      DamageMin: 0
+      DamageMax: 0
+      AttackRange: 0
+      AttackSpeed: 0
+      CriticalChange: 0
+      CriticalMultiplier: 0
+      AoeRadius: 0
+      BuildDuration: 0
+      UpgradeDuration: 0
+      SellDuration: 0
+      Cost: 0
+      SellValue: 0
+      Hp: 0
+      <HpRegenRate>k__BackingField: 0
+      Sp: 0
+      SpRegenRate: 0
+      SpStaggerDuration: 0
+      MoveSpeed: 0
+      DamageReduction: 0
+      CriticalReduction: 0
+      EffectsOnHitIdList: 
     IsStun: 0
-    IsMultiplier: 0
+    Duration: 0
 --- !u!135 &7700083909041868106
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -140,6 +194,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
